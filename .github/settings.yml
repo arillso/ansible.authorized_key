@@ -6,7 +6,7 @@ repository:
   name: ansible.authorized_key
 
   # A short description of the repository that will show up on GitHub
-  description: Ansible role to managed authorized key
+  description: Ansible role to managed authorized keys
 
   # A comma-separated list of topics to set on the repository
   topics: ansible, ansible-role, authorized_key
