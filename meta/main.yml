@@ -1,0 +1,33 @@
+---
+galaxy_info:
+  author: arillso
+  description: 'Ansible role to managed authorized key'
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+        - stretch
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Windows
+      versions:
+        - 2016
+
+  galaxy_tags:
+    - windows
+    - Linux
+    - authorized
+    - key
+    - ssh
+    - openssh
+
+dependencies: []
