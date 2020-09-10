@@ -410,12 +410,6 @@ function writefile {
         }
     }
 
-    if ($profileItem) {
-        Repair-AuthorizedKeyPermission -FilePath $filePath -Confirm:$false | Out-Null
-    }
-    else {
-        Repair-SshdHostKeyPermission -FilePath $filePath -Confirm:$false | Out-Null
-    }
 }
 
 function serialize {
