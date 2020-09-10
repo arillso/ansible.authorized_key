@@ -3,7 +3,7 @@
   hosts: all
   vars:
     authorized_key_users:
-      - username: '{{ ansible_user }}'
+      - username: 'root'
         key: https://raw.githubusercontent.com/hashicorp/vagrant/master/keys/vagrant.pub
   roles:
     - role: arillso.authorized_key
