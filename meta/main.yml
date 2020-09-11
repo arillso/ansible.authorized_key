@@ -24,7 +24,7 @@ galaxy_info:
 
   galaxy_tags:
     - windows
-    - Linux
+    - linux
     - authorized
     - key
     - ssh
