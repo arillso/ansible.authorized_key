@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   author: arillso
+  role_name: authorized_key
   description: 'Ansible role to managed authorized key'
   license: MIT
   min_ansible_version: 2.9
