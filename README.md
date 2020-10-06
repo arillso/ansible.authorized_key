@@ -81,7 +81,7 @@ Support: `Windows|Linux`
 
 Whether the given key (with the given key_options) should or should not be in the file.
 
-##### user
+##### username
 
 Support: `Windows|Linux`
 
